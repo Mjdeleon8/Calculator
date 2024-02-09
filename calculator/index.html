@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="pham.jpg" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <div id="main-container">
+      <input id="display" readonly />
+      <hr />
+      <div id="buttons">
+        <button onclick="displayClear()">AC</button>
+        <button onclick="calculatorFunction()">(⁠•⁠‿⁠•⁠)</button>
+        <button onclick="calculatorFunction('%')">%</button>
+        <button class="operator" onclick="calculatorFunction('/')">/</button>
+        <button onclick="calculatorFunction('7')">7</button>
+        <button onclick="calculatorFunction('8')">8</button>
+        <button onclick="calculatorFunction('9')">9</button>
+        <button class="operator" onclick="calculatorFunction('*')">*</button>
+        <button onclick="calculatorFunction('4')">4</button>
+        <button onclick="calculatorFunction('5')">5</button>
+        <button onclick="calculatorFunction('6')">6</button>
+        <button class="operator" onclick="calculatorFunction('-')">-</button>
+        <button onclick="calculatorFunction('1')">1</button>
+        <button onclick="calculatorFunction('2')">2</button>
+        <button onclick="calculatorFunction('3')">3</button>
+        <button class="operator" onclick="calculatorFunction('+')">+</button>
+        <button onclick="displayClear()">C</button>
+        <button onclick="calculatorFunction('0')">0</button>
+        <button onclick="calculatorFunction('.')">.</button>
+        <button class="operator" onclick="calculateFunction()">=</button>
+      </div>
+    </div>
+  </body>
+</html>
